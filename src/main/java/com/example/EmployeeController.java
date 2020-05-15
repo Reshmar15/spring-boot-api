@@ -29,7 +29,7 @@ public class EmployeeController {
 		return responseBody;
 	}
 	
-	@RequestMapping(value = "/allemployes", method = RequestMethod.GET)
+	@RequestMapping(value = "/allemployees", method = RequestMethod.GET)
 	public Employee[] getAllEmployees() {
 		
 		RestTemplate restTemplate = new RestTemplate();
